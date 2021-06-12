@@ -26,13 +26,13 @@ perform a catkin_make
 >$ roslaunch ros_projekt turtlebot3_arena_robotiklabor.launch
 
 ### Labyrinth
->$ youbot!
+youbot!
 >$ roslaunch ros_projekt turtlebot3_arena_labyrinth.launch
 
 ## open RViz to navigate
 ### Robotiklabor
 
->$ youbot!
+youbot!
 >$ roslaunch ros_projekt turtlebot3_navigation.launch map_file:=$HOME/catkin_ws/src/ros_projekt/maps/arena_robotiklabor_02.yaml
 
 ### Labyrinth
@@ -56,7 +56,7 @@ start slam mapping
 
 control turtlebot via teleop
 
->$ youbot!
+youbot!
 >$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 save map as new_map
@@ -80,5 +80,5 @@ start roscore on local machine
 >$ roscore
 
 launch ros on TurtleBot
->$ youbot!
+youbot!
 >$ roslaunch turtlebot3_bringup turtlebot3_robot.launch
