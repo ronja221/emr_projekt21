@@ -51,7 +51,7 @@ Costmap parameters are found in move_base/global_costmap and move_base/local_cos
 
 start slam mapping
 
->$ youbot!
+youbot!
 >$ roslaunch ros_projekt turtlebot3_slam.launch
 
 control turtlebot via teleop
@@ -69,7 +69,7 @@ edit .bashrc file on local machine with local ip address (192.168.1.46)
 
 >$ nano .bashrc
 
->$ stimmen noch überein?
+stimmen noch überein?
 >$ export ROS_MASTER_URI=http://192.168.1.46:11311
 >$ export ROS_HOSTNAME=192.168.1.46
 
